@@ -13,16 +13,22 @@ static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#eeeeee";
 static const char col_cyan[]        = "#222222";
-// Custom color scheme
-static const char col_black[]       = "#04080b";
-static const char col_blue[]        = "#94dfdb";
-static const char col_white[]       = "#f0f0f0";
 
-static const char *colors[][3]      = {
+// Colors
+static const char col_black[]       = "#04080b";
+static const char col_white[]       = "#f0f0f0";
+static const char col_blue[]        = "#94dfdb";
+static const char col_peach[]       = "#e0a6a3";
+static const char col_custard[]     = "#d8db94";
+static const char col_sky[]         = "#b3d9e6";
+
+// Set the color scheme
+static const char *colors[][3]      =   {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { col_white, col_black, col_blue },
-	[SchemeSel]  = { col_black, col_blue,  col_blue  },
+	[SchemeNorm] = { col_black, col_sky,     col_sky },
+	[SchemeSel]  = { col_black, col_custard, col_custard  },
 };
+
 
 /* tagging */
 static const char *tags[] = { "Term", "Web", "Email", "Music", "Free" };
