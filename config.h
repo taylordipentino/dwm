@@ -21,12 +21,14 @@ static const char col_blue[]        = "#94dfdb";
 static const char col_peach[]       = "#e0a6a3";
 static const char col_custard[]     = "#d8db94";
 static const char col_sky[]         = "#b3d9e6";
+static const char col_darkgray[]    = "#262626";
+static const char col_offwhite[]    = "#b2b2b2";
 
 // Set the color scheme
 static const char *colors[][3]      =   {
-	/*               fg         bg         border   */
-	[SchemeNorm] = { col_black, col_sky,     col_sky },
-	[SchemeSel]  = { col_black, col_custard, col_custard  },
+	/*               fg            bg                border   */
+	[SchemeNorm] = { col_offwhite, col_darkgray,     col_darkgray },
+	[SchemeSel]  = { col_black,    col_sky,          col_sky  },
 };
 
 
